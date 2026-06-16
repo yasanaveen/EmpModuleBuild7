@@ -1,0 +1,15 @@
+Utills\ExtentReportManager.class
+testCases\TC_0002EmployeeManagementCard.class
+pageObjects\AssignRoleObjects.class
+pageObjects\EmployeePageObjects.class
+Utills\WaitUtill.class
+testCases\TC_0006UnAssignRoleTestClass.class
+testCases\BaseClass.class
+pageObjects\UnmapObjects.class
+pageObjects\UnAssignRolePageObjects.class
+testCases\TC_0005AssignRoleTestclass.class
+pageObjects\AssignIndividualPageObjects.class
+testCases\TC_0001LoginPageTestclass.class
+testCases\TC_0004UnmapTestclass.class
+testCases\TC_0003AssignIndividualTestclass.class
+pageObjects\LoginPageObjects.class

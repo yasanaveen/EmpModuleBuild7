@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\pageObjects\AssignIndividualPageObjects.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\pageObjects\AssignRoleObjects.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\pageObjects\EmployeePageObjects.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\pageObjects\LoginPageObjects.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\pageObjects\UnAssignRolePageObjects.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\pageObjects\UnmapObjects.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\testCases\BaseClass.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\testCases\TC_0001LoginPageTestclass.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\testCases\TC_0002EmployeeManagementCard.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\testCases\TC_0003AssignIndividualTestclass.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\testCases\TC_0004UnmapTestclass.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\testCases\TC_0005AssignRoleTestclass.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\testCases\TC_0006UnAssignRoleTestClass.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\Utills\ExtentReportManager.java
+C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\src\test\java\Utills\WaitUtill.java

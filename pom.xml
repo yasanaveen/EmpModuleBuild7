@@ -35,7 +35,7 @@
 					<version>3.5.3</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>crossBrowserTesting.xml</suiteXmlFile>
+							<suiteXmlFile>tstNG.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>

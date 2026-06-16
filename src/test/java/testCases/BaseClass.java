@@ -13,13 +13,13 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-@Parameters("browser")
+
 public class BaseClass {
 
 	public WebDriver driver;
 	public static Logger log;
 	
-	
+	@Parameters("browser")
 	@BeforeClass
 	public void setUp(String browser) {
 		
@@ -32,8 +32,7 @@ public class BaseClass {
 			driver = new FirefoxDriver();break;
 		default:
 			System.out.println("Browser not supported, launching Chrome as default");
-			driver = new ChromeDriver();
-			 break;
+			
 			
 		}
 

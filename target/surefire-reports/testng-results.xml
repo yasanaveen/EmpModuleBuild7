@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-16T14:20:46 IST" name="CrossBrowserSuite" finished-at="2026-06-16T14:25:10 IST" duration-ms="263407">
+    <groups>
+    </groups>
+    <test started-at="2026-06-16T14:20:46 IST" name="ChromeTest" finished-at="2026-06-16T14:23:59 IST" duration-ms="192671">
+      <class name="testCases.TC_0001LoginPageTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0001LoginPageTestclass@223191a6]" started-at="2026-06-16T14:20:46 IST" name="setUp" finished-at="2026-06-16T14:20:57 IST" duration-ms="11004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginPageTest()[pri:0, instance:testCases.TC_0001LoginPageTestclass@223191a6]" started-at="2026-06-16T14:20:57 IST" name="LoginPageTest" finished-at="2026-06-16T14:21:00 IST" duration-ms="3111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0001LoginPageTestclass@223191a6]" started-at="2026-06-16T14:21:00 IST" name="tearDown" finished-at="2026-06-16T14:21:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0001LoginPageTestclass -->
+      <class name="testCases.TC_0005AssignRoleTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0005AssignRoleTestclass@1a482e36]" started-at="2026-06-16T14:22:43 IST" name="setUp" finished-at="2026-06-16T14:23:02 IST" duration-ms="19110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="assignRoleTest()[pri:0, instance:testCases.TC_0005AssignRoleTestclass@1a482e36]" started-at="2026-06-16T14:23:02 IST" name="assignRoleTest" finished-at="2026-06-16T14:23:19 IST" duration-ms="17446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignRoleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0005AssignRoleTestclass@1a482e36]" started-at="2026-06-16T14:23:19 IST" name="tearDown" finished-at="2026-06-16T14:23:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0005AssignRoleTestclass -->
+      <class name="testCases.TC_0002EmployeeManagementCard">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0002EmployeeManagementCard@59662a0b]" started-at="2026-06-16T14:21:00 IST" name="setUp" finished-at="2026-06-16T14:21:15 IST" duration-ms="15054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EmployeeManagementCardTest()[pri:0, instance:testCases.TC_0002EmployeeManagementCard@59662a0b]" started-at="2026-06-16T14:21:15 IST" name="EmployeeManagementCardTest" finished-at="2026-06-16T14:21:45 IST" duration-ms="30041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeManagementCardTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0002EmployeeManagementCard@59662a0b]" started-at="2026-06-16T14:21:45 IST" name="tearDown" finished-at="2026-06-16T14:21:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0002EmployeeManagementCard -->
+      <class name="testCases.TC_0006UnAssignRoleTestClass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0006UnAssignRoleTestClass@72967906]" started-at="2026-06-16T14:23:19 IST" name="setUp" finished-at="2026-06-16T14:23:39 IST" duration-ms="20217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="unAssignRoleTest()[pri:0, instance:testCases.TC_0006UnAssignRoleTestClass@72967906]" started-at="2026-06-16T14:23:39 IST" name="unAssignRoleTest" finished-at="2026-06-16T14:23:59 IST" duration-ms="19477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unAssignRoleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0006UnAssignRoleTestClass@72967906]" started-at="2026-06-16T14:23:59 IST" name="tearDown" finished-at="2026-06-16T14:23:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0006UnAssignRoleTestClass -->
+      <class name="testCases.TC_0004UnmapTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0004UnmapTestclass@67c27493]" started-at="2026-06-16T14:22:09 IST" name="setUp" finished-at="2026-06-16T14:22:22 IST" duration-ms="12947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UnmapTest()[pri:0, instance:testCases.TC_0004UnmapTestclass@67c27493]" started-at="2026-06-16T14:22:22 IST" name="UnmapTest" finished-at="2026-06-16T14:22:43 IST" duration-ms="20898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnmapTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0004UnmapTestclass@67c27493]" started-at="2026-06-16T14:22:43 IST" name="tearDown" finished-at="2026-06-16T14:22:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0004UnmapTestclass -->
+      <class name="testCases.TC_0003AssignIndividualTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0003AssignIndividualTestclass@77fbd92c]" started-at="2026-06-16T14:21:45 IST" name="setUp" finished-at="2026-06-16T14:21:52 IST" duration-ms="6114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="assignIndividual()[pri:0, instance:testCases.TC_0003AssignIndividualTestclass@77fbd92c]" started-at="2026-06-16T14:21:52 IST" name="assignIndividual" finished-at="2026-06-16T14:22:09 IST" duration-ms="17039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignIndividual -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0003AssignIndividualTestclass@77fbd92c]" started-at="2026-06-16T14:22:09 IST" name="tearDown" finished-at="2026-06-16T14:22:09 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0003AssignIndividualTestclass -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-06-16T14:20:46 IST" name="EdgeTest" finished-at="2026-06-16T14:24:03 IST" duration-ms="196490">
+      <class name="testCases.TC_0001LoginPageTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0001LoginPageTestclass@5fe94a96]" started-at="2026-06-16T14:20:46 IST" name="setUp" finished-at="2026-06-16T14:20:57 IST" duration-ms="11006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginPageTest()[pri:0, instance:testCases.TC_0001LoginPageTestclass@5fe94a96]" started-at="2026-06-16T14:20:57 IST" name="LoginPageTest" finished-at="2026-06-16T14:20:59 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0001LoginPageTestclass@5fe94a96]" started-at="2026-06-16T14:20:59 IST" name="tearDown" finished-at="2026-06-16T14:20:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0001LoginPageTestclass -->
+      <class name="testCases.TC_0005AssignRoleTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0005AssignRoleTestclass@618b19ad]" started-at="2026-06-16T14:22:41 IST" name="setUp" finished-at="2026-06-16T14:22:58 IST" duration-ms="16580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="assignRoleTest()[pri:0, instance:testCases.TC_0005AssignRoleTestclass@618b19ad]" started-at="2026-06-16T14:22:58 IST" name="assignRoleTest" finished-at="2026-06-16T14:23:18 IST" duration-ms="20285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignRoleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0005AssignRoleTestclass@618b19ad]" started-at="2026-06-16T14:23:18 IST" name="tearDown" finished-at="2026-06-16T14:23:18 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0005AssignRoleTestclass -->
+      <class name="testCases.TC_0002EmployeeManagementCard">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0002EmployeeManagementCard@443118b0]" started-at="2026-06-16T14:20:59 IST" name="setUp" finished-at="2026-06-16T14:21:11 IST" duration-ms="11483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EmployeeManagementCardTest()[pri:0, instance:testCases.TC_0002EmployeeManagementCard@443118b0]" started-at="2026-06-16T14:21:11 IST" name="EmployeeManagementCardTest" finished-at="2026-06-16T14:21:37 IST" duration-ms="25770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeManagementCardTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0002EmployeeManagementCard@443118b0]" started-at="2026-06-16T14:21:37 IST" name="tearDown" finished-at="2026-06-16T14:21:37 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0002EmployeeManagementCard -->
+      <class name="testCases.TC_0006UnAssignRoleTestClass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0006UnAssignRoleTestClass@2d3379b4]" started-at="2026-06-16T14:23:18 IST" name="setUp" finished-at="2026-06-16T14:23:37 IST" duration-ms="18248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="unAssignRoleTest()[pri:0, instance:testCases.TC_0006UnAssignRoleTestClass@2d3379b4]" started-at="2026-06-16T14:23:37 IST" name="unAssignRoleTest" finished-at="2026-06-16T14:24:03 IST" duration-ms="26090" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//*[contains(@class,'PcgVQ')])[4]' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//*[contains(@class,'PcgVQ')])[4]' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Utills.WaitUtill.waitForVisibility(WaitUtill.java:22)
+at pageObjects.EmployeePageObjects.clickOnEmployeeBtn(EmployeePageObjects.java:96)
+at testCases.TC_0006UnAssignRoleTestClass.unAssignRoleTest(TC_0006UnAssignRoleTestClass.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(@class,'PcgVQ')])[4]"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4e327bbd114f8dd4ff3467df44aa232, findElement {value=(//*[contains(@class,'PcgVQ')])[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63513}, goog:processID: 76828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63513/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4e327bbd114f8dd4ff3467df44aa232
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unAssignRoleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0006UnAssignRoleTestClass@2d3379b4]" started-at="2026-06-16T14:24:03 IST" name="tearDown" finished-at="2026-06-16T14:24:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0006UnAssignRoleTestClass -->
+      <class name="testCases.TC_0004UnmapTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0004UnmapTestclass@74235045]" started-at="2026-06-16T14:22:05 IST" name="setUp" finished-at="2026-06-16T14:22:17 IST" duration-ms="12493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UnmapTest()[pri:0, instance:testCases.TC_0004UnmapTestclass@74235045]" started-at="2026-06-16T14:22:17 IST" name="UnmapTest" finished-at="2026-06-16T14:22:41 IST" duration-ms="23899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnmapTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0004UnmapTestclass@74235045]" started-at="2026-06-16T14:22:41 IST" name="tearDown" finished-at="2026-06-16T14:22:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0004UnmapTestclass -->
+      <class name="testCases.TC_0003AssignIndividualTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0003AssignIndividualTestclass@765d7657]" started-at="2026-06-16T14:21:37 IST" name="setUp" finished-at="2026-06-16T14:21:48 IST" duration-ms="11759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="assignIndividual()[pri:0, instance:testCases.TC_0003AssignIndividualTestclass@765d7657]" started-at="2026-06-16T14:21:48 IST" name="assignIndividual" finished-at="2026-06-16T14:22:05 IST" duration-ms="16627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignIndividual -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0003AssignIndividualTestclass@765d7657]" started-at="2026-06-16T14:22:05 IST" name="tearDown" finished-at="2026-06-16T14:22:05 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0003AssignIndividualTestclass -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2026-06-16T14:20:46 IST" name="FirefoxTest" finished-at="2026-06-16T14:25:10 IST" duration-ms="263407">
+      <class name="testCases.TC_0001LoginPageTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0001LoginPageTestclass@78691363]" started-at="2026-06-16T14:20:46 IST" name="setUp" finished-at="2026-06-16T14:21:30 IST" duration-ms="43975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginPageTest()[pri:0, instance:testCases.TC_0001LoginPageTestclass@78691363]" started-at="2026-06-16T14:21:30 IST" name="LoginPageTest" finished-at="2026-06-16T14:21:32 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0001LoginPageTestclass@78691363]" started-at="2026-06-16T14:21:32 IST" name="tearDown" finished-at="2026-06-16T14:21:32 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0001LoginPageTestclass -->
+      <class name="testCases.TC_0005AssignRoleTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0005AssignRoleTestclass@33d512c1]" started-at="2026-06-16T14:24:07 IST" name="setUp" finished-at="2026-06-16T14:24:29 IST" duration-ms="22466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="assignRoleTest()[pri:0, instance:testCases.TC_0005AssignRoleTestclass@33d512c1]" started-at="2026-06-16T14:24:29 IST" name="assignRoleTest" finished-at="2026-06-16T14:24:42 IST" duration-ms="12596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignRoleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0005AssignRoleTestclass@33d512c1]" started-at="2026-06-16T14:24:42 IST" name="tearDown" finished-at="2026-06-16T14:24:42 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0005AssignRoleTestclass -->
+      <class name="testCases.TC_0002EmployeeManagementCard">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0002EmployeeManagementCard@41d477ed]" started-at="2026-06-16T14:21:32 IST" name="setUp" finished-at="2026-06-16T14:22:03 IST" duration-ms="30183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EmployeeManagementCardTest()[pri:0, instance:testCases.TC_0002EmployeeManagementCard@41d477ed]" started-at="2026-06-16T14:22:03 IST" name="EmployeeManagementCardTest" finished-at="2026-06-16T14:22:27 IST" duration-ms="24328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeManagementCardTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0002EmployeeManagementCard@41d477ed]" started-at="2026-06-16T14:22:27 IST" name="tearDown" finished-at="2026-06-16T14:22:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0002EmployeeManagementCard -->
+      <class name="testCases.TC_0006UnAssignRoleTestClass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0006UnAssignRoleTestClass@515c6049]" started-at="2026-06-16T14:24:42 IST" name="setUp" finished-at="2026-06-16T14:25:00 IST" duration-ms="18464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="unAssignRoleTest()[pri:0, instance:testCases.TC_0006UnAssignRoleTestClass@515c6049]" started-at="2026-06-16T14:25:00 IST" name="unAssignRoleTest" finished-at="2026-06-16T14:25:10 IST" duration-ms="9344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unAssignRoleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0006UnAssignRoleTestClass@515c6049]" started-at="2026-06-16T14:25:10 IST" name="tearDown" finished-at="2026-06-16T14:25:10 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0006UnAssignRoleTestClass -->
+      <class name="testCases.TC_0004UnmapTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0004UnmapTestclass@397fbdb]" started-at="2026-06-16T14:23:17 IST" name="setUp" finished-at="2026-06-16T14:23:51 IST" duration-ms="34151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UnmapTest()[pri:0, instance:testCases.TC_0004UnmapTestclass@397fbdb]" started-at="2026-06-16T14:23:51 IST" name="UnmapTest" finished-at="2026-06-16T14:24:07 IST" duration-ms="15692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnmapTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0004UnmapTestclass@397fbdb]" started-at="2026-06-16T14:24:07 IST" name="tearDown" finished-at="2026-06-16T14:24:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0004UnmapTestclass -->
+      <class name="testCases.TC_0003AssignIndividualTestclass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_0003AssignIndividualTestclass@3590fc5b]" started-at="2026-06-16T14:22:27 IST" name="setUp" finished-at="2026-06-16T14:22:59 IST" duration-ms="31549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="assignIndividual()[pri:0, instance:testCases.TC_0003AssignIndividualTestclass@3590fc5b]" started-at="2026-06-16T14:22:59 IST" name="assignIndividual" finished-at="2026-06-16T14:23:17 IST" duration-ms="18258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignIndividual -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0003AssignIndividualTestclass@3590fc5b]" started-at="2026-06-16T14:23:17 IST" name="tearDown" finished-at="2026-06-16T14:23:17 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_0003AssignIndividualTestclass -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>

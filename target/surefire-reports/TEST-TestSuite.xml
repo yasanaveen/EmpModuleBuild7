@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="264.686" tests="18" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\target\test-classes;C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\target\classes;C:\Users\Administrator\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Administrator\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Administrator\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.25.0\log4j-slf4j-impl-2.25.0.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.0\log4j-core-2.25.0.jar;C:\Users\Administrator\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Administrator\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Administrator\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Administrator\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Administrator\.m2\repository\com\varsity\re-engeneering\0.0.1-SNAPSHOT\re-engeneering-0.0.1-SNAPSHOT.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire3883066735777373817\surefirebooter-20260616142045464_3.jar C:\Users\Administrator\AppData\Local\Temp\surefire3883066735777373817 2026-06-16T14-20-45_248-jvmRun1 surefire-20260616142045464_1tmp surefire_0-20260616142045464_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\target\test-classes;C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\target\classes;C:\Users\Administrator\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Administrator\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Administrator\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.25.0\log4j-slf4j-impl-2.25.0.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.0\log4j-core-2.25.0.jar;C:\Users\Administrator\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Administrator\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Administrator\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Administrator\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Administrator\.m2\repository\com\varsity\re-engeneering\0.0.1-SNAPSHOT\re-engeneering-0.0.1-SNAPSHOT.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire3883066735777373817\surefirebooter-20260616142045464_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\Administrator\product\21c\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\Administrator\AppData\Local\Android\Sdk\tools\bin;C:\Users\Administrator\AppData\Local\Android\Sdk\tools;C:\Users\Administrator\AppData\Local\Android\Sdk\platform-tools;C:\Users\Administrator\AppData\Roaming\npm;C:\apache-jmeter-5.6.3\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\PuTTY\;C:\app\Administrator\product\21c\dbhomeXE\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\Programs\Antigravity\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.8+12-LTS-250"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="LoginPageTest" classname="testCases.TC_0001LoginPageTestclass" time="2.035">
+    <system-out><![CDATA[2026-06-16 14:20:57 INFO  TC_0001LoginPageTestclass:47 - Browser launched and navigated to login page
+2026-06-16 14:20:57 INFO  TC_0001LoginPageTestclass:47 - Browser launched and navigated to login page
+************started TC_0001LoginPageTestclass***********
+************started TC_0001LoginPageTestclass***********
+2026-06-16 14:20:59 INFO  TC_0001LoginPageTestclass:14 - Entered username and password
+2026-06-16 14:20:59 INFO  TC_0001LoginPageTestclass:15 - Clicking on login button
+2026-06-16 14:20:59 INFO  TC_0001LoginPageTestclass:17 - Logged out successfully
+************completed TC_0001LoginPageTestclass***********
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:20:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:20:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:20:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:20:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.4022.69. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:20:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:20:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:20:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:20:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="LoginPageTest" classname="testCases.TC_0001LoginPageTestclass" time="3.112">
+    <system-out><![CDATA[2026-06-16 14:20:59 INFO  TC_0001LoginPageTestclass:61 - Browser closed
+2026-06-16 14:21:00 INFO  TC_0001LoginPageTestclass:14 - Entered username and password
+2026-06-16 14:21:00 INFO  TC_0001LoginPageTestclass:15 - Clicking on login button
+2026-06-16 14:21:00 INFO  TC_0001LoginPageTestclass:17 - Logged out successfully
+************completed TC_0001LoginPageTestclass***********
+]]></system-out>
+  </testcase>
+  <testcase name="LoginPageTest" classname="testCases.TC_0001LoginPageTestclass" time="2.279">
+    <system-out><![CDATA[2026-06-16 14:21:00 INFO  TC_0001LoginPageTestclass:61 - Browser closed
+2026-06-16 14:21:11 INFO  TC_0002EmployeeManagementCard:47 - Browser launched and navigated to login page
+************started TC_0002EmployeeManagementCard***********
+2026-06-16 14:21:13 INFO  TC_0002EmployeeManagementCard:18 - Entered username and password
+2026-06-16 14:21:13 INFO  TC_0002EmployeeManagementCard:19 - Clicking on login button
+2026-06-16 14:21:13 INFO  TC_0002EmployeeManagementCard:20 - Logged in successfully
+2026-06-16 14:21:13 INFO  TC_0002EmployeeManagementCard:22 - Logged out successfully
+2026-06-16 14:21:14 INFO  TC_0001LoginPageTestclass:26 - Clicked on Employee module
+2026-06-16 14:21:15 INFO  TC_0001LoginPageTestclass:47 - Browser launched and navigated to login page
+************started TC_0002EmployeeManagementCard***********
+2026-06-16 14:21:16 INFO  TC_0001LoginPageTestclass:28 - Clicked on Employee Management card
+2026-06-16 14:21:21 INFO  TC_0001LoginPageTestclass:35 - Clicked on search input field
+2026-06-16 14:21:22 INFO  TC_0001LoginPageTestclass:18 - Entered username and password
+2026-06-16 14:21:22 INFO  TC_0001LoginPageTestclass:19 - Clicking on login button
+2026-06-16 14:21:22 INFO  TC_0001LoginPageTestclass:20 - Logged in successfully
+2026-06-16 14:21:22 INFO  TC_0001LoginPageTestclass:22 - Logged out successfully
+2026-06-16 14:21:22 INFO  TC_0001LoginPageTestclass:41 - Clicked on a search button
+2026-06-16 14:21:23 INFO  TC_0001LoginPageTestclass:26 - Clicked on Employee module
+2026-06-16 14:21:25 INFO  TC_0001LoginPageTestclass:28 - Clicked on Employee Management card
+2026-06-16 14:21:25 INFO  TC_0001LoginPageTestclass:44 - Clicked on profile card
+2026-06-16 14:21:26 INFO  TC_0001LoginPageTestclass:47 - Clicked on next button
+2026-06-16 14:21:27 INFO  TC_0001LoginPageTestclass:52 - Clicked on mapping remapping button
+2026-06-16 14:21:27 INFO  TC_0001LoginPageTestclass:55 - Clicked on assign group button
+2026-06-16 14:21:28 INFO  TC_0001LoginPageTestclass:58 - city field:GUNTUR
+2026-06-16 14:21:28 INFO  TC_0001LoginPageTestclass:59 - campus field:CHANAKYA BHAVAN IPCC
+2026-06-16 14:21:28 INFO  TC_0001LoginPageTestclass:35 - Clicked on search input field
+2026-06-16 14:21:30 INFO  TC_0001LoginPageTestclass:41 - Clicked on a search button
+2026-06-16 14:21:30 INFO  TC_0001LoginPageTestclass:47 - Browser launched and navigated to login page
+************started TC_0001LoginPageTestclass***********
+2026-06-16 14:21:30 INFO  TC_0001LoginPageTestclass:62 - Clicked on manager dropdown
+2026-06-16 14:21:32 INFO  TC_0001LoginPageTestclass:44 - Clicked on profile card
+2026-06-16 14:21:32 INFO  TC_0001LoginPageTestclass:14 - Entered username and password
+2026-06-16 14:21:32 INFO  TC_0001LoginPageTestclass:15 - Clicking on login button
+2026-06-16 14:21:32 INFO  TC_0001LoginPageTestclass:17 - Logged out successfully
+************completed TC_0001LoginPageTestclass***********
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:21:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.4022.69. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:21:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:21:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:21:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:21:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EmployeeManagementCardTest" classname="testCases.TC_0002EmployeeManagementCard" time="6.437">
+    <system-out><![CDATA[2026-06-16 14:21:32 INFO  TC_0001LoginPageTestclass:61 - Browser closed
+2026-06-16 14:21:33 INFO  TC_0001LoginPageTestclass:47 - Clicked on next button
+2026-06-16 14:21:34 INFO  TC_0001LoginPageTestclass:52 - Clicked on mapping remapping button
+2026-06-16 14:21:34 INFO  TC_0001LoginPageTestclass:65 - Clicked on reporting manager dropdown
+2026-06-16 14:21:35 INFO  TC_0001LoginPageTestclass:55 - Clicked on assign group button
+2026-06-16 14:21:35 INFO  TC_0001LoginPageTestclass:68 - Entered remarks
+2026-06-16 14:21:35 INFO  TC_0001LoginPageTestclass:58 - city field:GUNTUR
+2026-06-16 14:21:36 INFO  TC_0001LoginPageTestclass:59 - campus field:CHANAKYA BHAVAN IPCC
+2026-06-16 14:21:37 INFO  TC_0001LoginPageTestclass:71 - Clicked on back button
+************completed TC_0002EmployeeManagementCard***********
+]]></system-out>
+  </testcase>
+  <testcase name="EmployeeManagementCardTest" classname="testCases.TC_0002EmployeeManagementCard" time="15.317">
+    <system-out><![CDATA[2026-06-16 14:21:37 INFO  TC_0001LoginPageTestclass:61 - Browser closed
+2026-06-16 14:21:41 INFO  TC_0001LoginPageTestclass:62 - Clicked on manager dropdown
+2026-06-16 14:21:44 INFO  TC_0003AssignIndividualTestclass:65 - Clicked on reporting manager dropdown
+2026-06-16 14:21:45 INFO  TC_0003AssignIndividualTestclass:68 - Entered remarks
+2026-06-16 14:21:45 INFO  TC_0003AssignIndividualTestclass:71 - Clicked on back button
+************completed TC_0002EmployeeManagementCard***********
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:21:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.4022.69. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:21:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EmployeeManagementCardTest" classname="testCases.TC_0002EmployeeManagementCard" time="5.421">
+    <system-out><![CDATA[2026-06-16 14:22:09 INFO  TC_0004UnmapTestclass:61 - Browser closed
+2026-06-16 14:22:09 INFO  TC_0004UnmapTestclass:35 - Clicked on search input field
+2026-06-16 14:22:10 INFO  TC_0004UnmapTestclass:41 - Clicked on a search button
+2026-06-16 14:22:14 INFO  TC_0004UnmapTestclass:44 - Clicked on profile card
+2026-06-16 14:22:15 INFO  TC_0004UnmapTestclass:47 - Clicked on next button
+2026-06-16 14:22:15 INFO  TC_0004UnmapTestclass:52 - Clicked on mapping remapping button
+2026-06-16 14:22:17 INFO  TC_0004UnmapTestclass:55 - Clicked on assign group button
+2026-06-16 14:22:17 INFO  TC_0004UnmapTestclass:47 - Browser launched and navigated to login page
+************started TC_0004UnmapTestclass***********
+2026-06-16 14:22:18 INFO  TC_0004UnmapTestclass:58 - city field:GUNTUR
+2026-06-16 14:22:18 INFO  TC_0004UnmapTestclass:59 - campus field:CHANAKYA BHAVAN IPCC
+2026-06-16 14:22:20 INFO  TC_0004UnmapTestclass:62 - Clicked on manager dropdown
+2026-06-16 14:22:20 INFO  TC_0004UnmapTestclass:20 - Entered username and password
+2026-06-16 14:22:20 INFO  TC_0004UnmapTestclass:21 - Clicking on login button
+2026-06-16 14:22:22 INFO  TC_0004UnmapTestclass:47 - Browser launched and navigated to login page
+************started TC_0004UnmapTestclass***********
+2026-06-16 14:22:23 INFO  TC_0004UnmapTestclass:65 - Clicked on reporting manager dropdown
+2026-06-16 14:22:24 INFO  TC_0004UnmapTestclass:20 - Entered username and password
+2026-06-16 14:22:24 INFO  TC_0004UnmapTestclass:21 - Clicking on login button
+2026-06-16 14:22:24 INFO  TC_0004UnmapTestclass:68 - Entered remarks
+2026-06-16 14:22:27 INFO  TC_0004UnmapTestclass:71 - Clicked on back button
+************completed TC_0002EmployeeManagementCard***********
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:22:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:22:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:22:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:22:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:22:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:22:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="assignIndividual" classname="testCases.TC_0003AssignIndividualTestclass" time="2.331">
+    <system-out><![CDATA[2026-06-16 14:21:45 INFO  TC_0003AssignIndividualTestclass:61 - Browser closed
+2026-06-16 14:21:48 INFO  TC_0003AssignIndividualTestclass:47 - Browser launched and navigated to login page
+2026-06-16 14:21:48 INFO  TC_0003AssignIndividualTestclass:16 - ************started TC_0003AssignIndividualTestclass***********
+2026-06-16 14:21:52 INFO  TC_0003AssignIndividualTestclass:47 - Browser launched and navigated to login page
+2026-06-16 14:21:52 INFO  TC_0003AssignIndividualTestclass:16 - ************started TC_0003AssignIndividualTestclass***********
+2026-06-16 14:21:52 INFO  TC_0003AssignIndividualTestclass:20 - Entered username and password
+2026-06-16 14:21:52 INFO  TC_0003AssignIndividualTestclass:21 - Clicking on login button
+2026-06-16 14:21:57 INFO  TC_0002EmployeeManagementCard:20 - Entered username and password
+2026-06-16 14:21:57 INFO  TC_0002EmployeeManagementCard:21 - Clicking on login button
+2026-06-16 14:22:03 INFO  TC_0002EmployeeManagementCard:47 - Browser launched and navigated to login page
+************started TC_0002EmployeeManagementCard***********
+2026-06-16 14:22:03 INFO  TC_0002EmployeeManagementCard:31 - Clicked on mapping remapping button
+2026-06-16 14:22:04 INFO  TC_0002EmployeeManagementCard:35 - Clicked on assignIndividual button
+2026-06-16 14:22:04 INFO  TC_0002EmployeeManagementCard:18 - Entered username and password
+2026-06-16 14:22:04 INFO  TC_0002EmployeeManagementCard:19 - Clicking on login button
+2026-06-16 14:22:04 INFO  TC_0002EmployeeManagementCard:20 - Logged in successfully
+2026-06-16 14:22:04 INFO  TC_0002EmployeeManagementCard:22 - Logged out successfully
+2026-06-16 14:22:04 INFO  TC_0002EmployeeManagementCard:43 - employee screen shot taken
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:45 - payrollid:HYD000020
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:47 - remapping cityfield value:GUNTUR
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:26 - Clicked on Employee module
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:48 - remapping campusfield value:CHANAKYA BHAVAN IPCC
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:51 - Clicked on department dropdown
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:54 - Selected designation from dropdown
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:57 - Selected reporting manager from dropdown
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:60 - Selected manager from dropdown
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:65 - Clicked on confirm button
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:67 - ************completed TC_0003AssignIndividualTestclass***********
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:21:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:21:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:21:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:21:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="assignIndividual" classname="testCases.TC_0003AssignIndividualTestclass" time="6.042">
+    <system-out><![CDATA[2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:61 - Browser closed
+2026-06-16 14:22:05 INFO  TC_0002EmployeeManagementCard:28 - Clicked on Employee Management card
+2026-06-16 14:22:06 INFO  TC_0002EmployeeManagementCard:31 - Clicked on mapping remapping button
+2026-06-16 14:22:06 INFO  TC_0002EmployeeManagementCard:35 - Clicked on assignIndividual button
+2026-06-16 14:22:08 INFO  TC_0004UnmapTestclass:43 - employee screen shot taken
+2026-06-16 14:22:08 INFO  TC_0004UnmapTestclass:45 - payrollid:HYD000020
+2026-06-16 14:22:08 INFO  TC_0004UnmapTestclass:47 - remapping cityfield value:GUNTUR
+2026-06-16 14:22:09 INFO  TC_0004UnmapTestclass:48 - remapping campusfield value:CHANAKYA BHAVAN IPCC
+2026-06-16 14:22:09 INFO  TC_0004UnmapTestclass:51 - Clicked on department dropdown
+2026-06-16 14:22:09 INFO  TC_0004UnmapTestclass:54 - Selected designation from dropdown
+2026-06-16 14:22:09 INFO  TC_0004UnmapTestclass:57 - Selected reporting manager from dropdown
+2026-06-16 14:22:09 INFO  TC_0004UnmapTestclass:60 - Selected manager from dropdown
+2026-06-16 14:22:09 INFO  TC_0004UnmapTestclass:65 - Clicked on confirm button
+2026-06-16 14:22:09 INFO  TC_0004UnmapTestclass:67 - ************completed TC_0003AssignIndividualTestclass***********
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:22:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:22:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.4022.69. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="assignIndividual" classname="testCases.TC_0003AssignIndividualTestclass" time="15.166">
+    <system-out><![CDATA[2026-06-16 14:22:43 INFO  TC_0004UnmapTestclass:61 - Browser closed
+2026-06-16 14:22:58 INFO  TC_0005AssignRoleTestclass:47 - Browser launched and navigated to login page
+************started TC_0005AssignRoleTestclass***********
+2026-06-16 14:22:59 INFO  TC_0005AssignRoleTestclass:47 - Browser launched and navigated to login page
+2026-06-16 14:22:59 INFO  TC_0005AssignRoleTestclass:16 - ************started TC_0003AssignIndividualTestclass***********
+2026-06-16 14:23:01 INFO  TC_0005AssignRoleTestclass:20 - Entered username and password
+2026-06-16 14:23:01 INFO  TC_0005AssignRoleTestclass:21 - Clicking on login button
+2026-06-16 14:23:02 INFO  TC_0005AssignRoleTestclass:47 - Browser launched and navigated to login page
+************started TC_0005AssignRoleTestclass***********
+2026-06-16 14:23:02 INFO  TC_0005AssignRoleTestclass:20 - Entered username and password
+2026-06-16 14:23:02 INFO  TC_0005AssignRoleTestclass:21 - Clicking on login button
+2026-06-16 14:23:03 INFO  TC_0005AssignRoleTestclass:25 - Clicked on Employee module
+2026-06-16 14:23:05 INFO  TC_0005AssignRoleTestclass:27 - Clicked on Employee Management card
+2026-06-16 14:23:06 INFO  TC_0005AssignRoleTestclass:20 - Entered username and password
+2026-06-16 14:23:06 INFO  TC_0005AssignRoleTestclass:21 - Clicking on login button
+2026-06-16 14:23:09 INFO  TC_0005AssignRoleTestclass:25 - Clicked on Employee module
+2026-06-16 14:23:09 INFO  TC_0005AssignRoleTestclass:34 - Clicked on search input field
+2026-06-16 14:23:09 INFO  TC_0005AssignRoleTestclass:27 - Clicked on Employee Management card
+2026-06-16 14:23:10 INFO  TC_0005AssignRoleTestclass:40 - Clicked on a search button
+2026-06-16 14:23:12 INFO  TC_0005AssignRoleTestclass:34 - Clicked on search input field
+2026-06-16 14:23:13 INFO  TC_0005AssignRoleTestclass:43 - Clicked on profile card
+2026-06-16 14:23:13 INFO  TC_0005AssignRoleTestclass:40 - Clicked on a search button
+2026-06-16 14:23:13 INFO  TC_0005AssignRoleTestclass:46 - Clicked on next button
+2026-06-16 14:23:14 INFO  TC_0005AssignRoleTestclass:48 - Clicked on assign group button
+2026-06-16 14:23:14 INFO  TC_0005AssignRoleTestclass:31 - Clicked on mapping remapping button
+2026-06-16 14:23:14 INFO  TC_0005AssignRoleTestclass:43 - Clicked on profile card
+2026-06-16 14:23:15 INFO  TC_0005AssignRoleTestclass:46 - Clicked on next button
+2026-06-16 14:23:15 INFO  TC_0005AssignRoleTestclass:35 - Clicked on assignIndividual button
+2026-06-16 14:23:15 INFO  TC_0005AssignRoleTestclass:52 - Clicked on assign role button
+2026-06-16 14:23:15 INFO  TC_0005AssignRoleTestclass:48 - Clicked on assign group button
+2026-06-16 14:23:16 INFO  TC_0005AssignRoleTestclass:54 - Captured screenshot of assign role profile card
+2026-06-16 14:23:16 INFO  TC_0005AssignRoleTestclass:43 - employee screen shot taken
+2026-06-16 14:23:16 INFO  TC_0005AssignRoleTestclass:52 - Clicked on assign role button
+2026-06-16 14:23:16 INFO  TC_0005AssignRoleTestclass:45 - payrollid:HYD000020
+2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:47 - remapping cityfield value:GUNTUR
+2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:48 - remapping campusfield value:CHANAKYA BHAVAN IPCC
+2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:51 - Clicked on department dropdown
+2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:54 - Selected designation from dropdown
+2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:57 - Selected reporting manager from dropdown
+2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:60 - Selected manager from dropdown
+2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:65 - Clicked on confirm button
+2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:67 - ************completed TC_0003AssignIndividualTestclass***********
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:22:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:22:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.4022.69. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:22:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:22:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:22:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:22:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:22:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:22:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:22:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:22:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="UnmapTest" classname="testCases.TC_0004UnmapTestclass" time="19.731">
+    <system-out><![CDATA[2026-06-16 14:22:27 INFO  TC_0004UnmapTestclass:61 - Browser closed
+2026-06-16 14:22:33 INFO  TC_0004UnmapTestclass:33 - Clicked on unmap button
+2026-06-16 14:22:33 INFO  TC_0004UnmapTestclass:35 - Clicked on unassign group button
+2026-06-16 14:22:33 INFO  TC_0004UnmapTestclass:37 - Unmap pop up screen shot taken
+2026-06-16 14:22:35 INFO  TC_0004UnmapTestclass:40 - Clicked on unassign individual button
+2026-06-16 14:22:36 INFO  TC_0004UnmapTestclass:43 - Select Unassign Type header text is matching
+2026-06-16 14:22:36 INFO  TC_0004UnmapTestclass:33 - Clicked on unmap button
+2026-06-16 14:22:36 INFO  TC_0004UnmapTestclass:35 - Clicked on unassign group button
+2026-06-16 14:22:36 INFO  TC_0004UnmapTestclass:37 - Unmap pop up screen shot taken
+2026-06-16 14:22:39 INFO  TC_0004UnmapTestclass:40 - Clicked on unassign individual button
+2026-06-16 14:22:40 INFO  TC_0004UnmapTestclass:43 - Select Unassign Type header text is matching
+2026-06-16 14:22:41 INFO  TC_0004UnmapTestclass:52 - Clicked on manager and reporting manager checkbox
+2026-06-16 14:22:41 INFO  TC_0004UnmapTestclass:58 - Entered remark
+2026-06-16 14:22:41 INFO  TC_0004UnmapTestclass:61 - ************completed TC_0004UnmapTestclass***********
+]]></system-out>
+  </testcase>
+  <testcase name="UnmapTest" classname="testCases.TC_0004UnmapTestclass" time="20.915">
+    <system-out><![CDATA[2026-06-16 14:22:41 INFO  TC_0004UnmapTestclass:61 - Browser closed
+2026-06-16 14:22:42 INFO  TC_0004UnmapTestclass:52 - Clicked on manager and reporting manager checkbox
+2026-06-16 14:22:43 INFO  TC_0004UnmapTestclass:58 - Entered remark
+2026-06-16 14:22:43 INFO  TC_0004UnmapTestclass:61 - ************completed TC_0004UnmapTestclass***********
+]]></system-out>
+  </testcase>
+  <testcase name="UnmapTest" classname="testCases.TC_0004UnmapTestclass" time="15.653">
+    <system-out><![CDATA[2026-06-16 14:24:03 INFO  TC_0004UnmapTestclass:61 - Browser closed
+2026-06-16 14:24:04 INFO  TC_0004UnmapTestclass:40 - Clicked on unassign individual button
+2026-06-16 14:24:04 INFO  TC_0004UnmapTestclass:43 - Select Unassign Type header text is matching
+2026-06-16 14:24:06 INFO  TC_0004UnmapTestclass:52 - Clicked on manager and reporting manager checkbox
+2026-06-16 14:24:07 INFO  TC_0004UnmapTestclass:58 - Entered remark
+2026-06-16 14:24:07 INFO  TC_0004UnmapTestclass:61 - ************completed TC_0004UnmapTestclass***********
+]]></system-out>
+  </testcase>
+  <testcase name="assignRoleTest" classname="testCases.TC_0005AssignRoleTestclass" time="16.614">
+    <system-out><![CDATA[2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:61 - Browser closed
+2026-06-16 14:23:17 INFO  TC_0005AssignRoleTestclass:54 - Captured screenshot of assign role profile card
+2026-06-16 14:23:18 INFO  TC_0005AssignRoleTestclass:71 - Clicked on cross button
+2026-06-16 14:23:18 INFO  TC_0005AssignRoleTestclass:73 - Clicked on no button in confirmation popup
+]]></system-out>
+  </testcase>
+  <testcase name="assignRoleTest" classname="testCases.TC_0005AssignRoleTestclass" time="17.449">
+    <system-out><![CDATA[2026-06-16 14:23:18 INFO  TC_0005AssignRoleTestclass:61 - Browser closed
+2026-06-16 14:23:19 INFO  TC_0005AssignRoleTestclass:71 - Clicked on cross button
+2026-06-16 14:23:19 INFO  TC_0005AssignRoleTestclass:73 - Clicked on no button in confirmation popup
+]]></system-out>
+  </testcase>
+  <testcase name="assignRoleTest" classname="testCases.TC_0005AssignRoleTestclass" time="12.598">
+    <system-out><![CDATA[2026-06-16 14:24:07 INFO  TC_0004UnmapTestclass:61 - Browser closed
+2026-06-16 14:24:29 INFO  TC_0005AssignRoleTestclass:47 - Browser launched and navigated to login page
+************started TC_0005AssignRoleTestclass***********
+2026-06-16 14:24:32 INFO  TC_0005AssignRoleTestclass:20 - Entered username and password
+2026-06-16 14:24:32 INFO  TC_0005AssignRoleTestclass:21 - Clicking on login button
+2026-06-16 14:24:33 INFO  TC_0005AssignRoleTestclass:25 - Clicked on Employee module
+2026-06-16 14:24:33 INFO  TC_0005AssignRoleTestclass:27 - Clicked on Employee Management card
+2026-06-16 14:24:36 INFO  TC_0005AssignRoleTestclass:34 - Clicked on search input field
+2026-06-16 14:24:37 INFO  TC_0005AssignRoleTestclass:40 - Clicked on a search button
+2026-06-16 14:24:38 INFO  TC_0005AssignRoleTestclass:43 - Clicked on profile card
+2026-06-16 14:24:38 INFO  TC_0005AssignRoleTestclass:46 - Clicked on next button
+2026-06-16 14:24:38 INFO  TC_0005AssignRoleTestclass:48 - Clicked on assign group button
+2026-06-16 14:24:39 INFO  TC_0005AssignRoleTestclass:52 - Clicked on assign role button
+2026-06-16 14:24:40 INFO  TC_0005AssignRoleTestclass:54 - Captured screenshot of assign role profile card
+2026-06-16 14:24:42 INFO  TC_0005AssignRoleTestclass:71 - Clicked on cross button
+2026-06-16 14:24:42 INFO  TC_0005AssignRoleTestclass:73 - Clicked on no button in confirmation popup
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:24:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:24:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="unAssignRoleTest" classname="testCases.TC_0006UnAssignRoleTestClass" time="7.799">
+    <system-out><![CDATA[2026-06-16 14:23:19 INFO  TC_0005AssignRoleTestclass:61 - Browser closed
+2026-06-16 14:23:37 INFO  TC_0006UnAssignRoleTestClass:47 - Browser launched and navigated to login page
+************started TC_0006UnAssignRoleTestClass***********
+2026-06-16 14:23:39 INFO  TC_0006UnAssignRoleTestClass:47 - Browser launched and navigated to login page
+************started TC_0006UnAssignRoleTestClass***********
+2026-06-16 14:23:41 INFO  TC_0006UnAssignRoleTestClass:21 - Entered username and password
+2026-06-16 14:23:41 INFO  TC_0006UnAssignRoleTestClass:22 - Clicking on login button
+2026-06-16 14:23:44 INFO  TC_0004UnmapTestclass:21 - Entered username and password
+2026-06-16 14:23:44 INFO  TC_0004UnmapTestclass:22 - Clicking on login button
+2026-06-16 14:23:46 INFO  TC_0004UnmapTestclass:26 - Clicked on Employee module
+2026-06-16 14:23:47 INFO  TC_0004UnmapTestclass:28 - Clicked on Employee Management card
+2026-06-16 14:23:51 INFO  TC_0004UnmapTestclass:47 - Browser launched and navigated to login page
+************started TC_0004UnmapTestclass***********
+2026-06-16 14:23:51 INFO  TC_0004UnmapTestclass:35 - Clicked on search input field
+2026-06-16 14:23:53 INFO  TC_0004UnmapTestclass:41 - Clicked on a search button
+2026-06-16 14:23:54 INFO  TC_0004UnmapTestclass:20 - Entered username and password
+2026-06-16 14:23:54 INFO  TC_0004UnmapTestclass:21 - Clicking on login button
+2026-06-16 14:23:55 INFO  TC_0004UnmapTestclass:44 - Clicked on profile card
+2026-06-16 14:23:56 INFO  TC_0004UnmapTestclass:47 - Clicked on next button
+2026-06-16 14:23:57 INFO  TC_0004UnmapTestclass:51 - Clicked on unmap button
+2026-06-16 14:23:58 INFO  TC_0004UnmapTestclass:55 - Clicked on unassign role button
+2026-06-16 14:23:58 INFO  TC_0004UnmapTestclass:57 - unAssignRoleHeaderText:null
+2026-06-16 14:23:58 INFO  TC_0004UnmapTestclass:62 - current location:GUNTUR
+2026-06-16 14:23:58 INFO  TC_0004UnmapTestclass:63 - current campus:CHANAKYA BHAVAN IPCC
+2026-06-16 14:23:58 INFO  TC_0004UnmapTestclass:64 - current role:Principal
+2026-06-16 14:23:59 INFO  TC_0004UnmapTestclass:66 - Entered remark
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:23:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:23:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.4022.69. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:23:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:23:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:23:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:23:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:23:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:23:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 16, 2026 2:23:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:23:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="unAssignRoleTest" classname="testCases.TC_0006UnAssignRoleTestClass" time="11.622">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: (//*[contains(@class,&apos;PcgVQ&apos;)])[4]&apos; (tried for 15 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//*[contains(@class,'PcgVQ')])[4]' (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Utills.WaitUtill.waitForVisibility(WaitUtill.java:22)
+	at pageObjects.EmployeePageObjects.clickOnEmployeeBtn(EmployeePageObjects.java:96)
+	at testCases.TC_0006UnAssignRoleTestClass.unAssignRoleTest(TC_0006UnAssignRoleTestClass.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[contains(@class,'PcgVQ')])[4]"}
+  (Session info: chrome=149.0.7827.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4e327bbd114f8dd4ff3467df44aa232, findElement {value=(//*[contains(@class,'PcgVQ')])[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63513}, goog:processID: 76828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63513/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4e327bbd114f8dd4ff3467df44aa232
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 23 more
+]]></failure>
+    <system-out><![CDATA[2026-06-16 14:23:59 INFO  TC_0004UnmapTestclass:61 - Browser closed
+2026-06-16 14:24:02 INFO  TC_0004UnmapTestclass:33 - Clicked on unmap button
+2026-06-16 14:24:02 INFO  TC_0004UnmapTestclass:35 - Clicked on unassign group button
+2026-06-16 14:24:02 INFO  TC_0004UnmapTestclass:37 - Unmap pop up screen shot taken
+]]></system-out>
+  </testcase>
+  <testcase name="unAssignRoleTest" classname="testCases.TC_0006UnAssignRoleTestClass" time="9.338">
+    <system-out><![CDATA[2026-06-16 14:24:42 INFO  TC_0005AssignRoleTestclass:61 - Browser closed
+2026-06-16 14:25:00 INFO  TC_0006UnAssignRoleTestClass:47 - Browser launched and navigated to login page
+************started TC_0006UnAssignRoleTestClass***********
+2026-06-16 14:25:02 INFO  TC_0006UnAssignRoleTestClass:21 - Entered username and password
+2026-06-16 14:25:02 INFO  TC_0006UnAssignRoleTestClass:22 - Clicking on login button
+2026-06-16 14:25:03 INFO  TC_0006UnAssignRoleTestClass:26 - Clicked on Employee module
+2026-06-16 14:25:04 INFO  TC_0006UnAssignRoleTestClass:28 - Clicked on Employee Management card
+2026-06-16 14:25:06 INFO  TC_0006UnAssignRoleTestClass:35 - Clicked on search input field
+2026-06-16 14:25:07 INFO  TC_0006UnAssignRoleTestClass:41 - Clicked on a search button
+2026-06-16 14:25:08 INFO  TC_0006UnAssignRoleTestClass:44 - Clicked on profile card
+2026-06-16 14:25:08 INFO  TC_0006UnAssignRoleTestClass:47 - Clicked on next button
+2026-06-16 14:25:08 INFO  TC_0006UnAssignRoleTestClass:51 - Clicked on unmap button
+2026-06-16 14:25:09 INFO  TC_0006UnAssignRoleTestClass:55 - Clicked on unassign role button
+2026-06-16 14:25:09 INFO  TC_0006UnAssignRoleTestClass:57 - unAssignRoleHeaderText:null
+2026-06-16 14:25:09 INFO  TC_0006UnAssignRoleTestClass:62 - current location:GUNTUR
+2026-06-16 14:25:09 INFO  TC_0006UnAssignRoleTestClass:63 - current campus:CHANAKYA BHAVAN IPCC
+2026-06-16 14:25:09 INFO  TC_0006UnAssignRoleTestClass:64 - current role:Principal
+2026-06-16 14:25:10 INFO  TC_0006UnAssignRoleTestClass:66 - Entered remark
+]]></system-out>
+    <system-err><![CDATA[Jun 16, 2026 2:24:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 16, 2026 2:24:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
