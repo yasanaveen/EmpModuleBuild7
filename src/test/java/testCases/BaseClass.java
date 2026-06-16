@@ -19,7 +19,7 @@ public class BaseClass {
 	public WebDriver driver;
 	public static Logger log;
 	
-	@Parameters("browser")
+	@Parameters({"browser"})
 	@BeforeClass
 	public void setUp(String browser) {
 		
