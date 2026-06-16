@@ -7,9 +7,13 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
+@Parameters("browser")
 public class BaseClass {
 
 	public WebDriver driver;
@@ -17,7 +21,21 @@ public class BaseClass {
 	
 	
 	@BeforeClass
-	public void setUp() {
+	public void setUp(String browser) {
+		
+		switch (browser.toLowerCase()) {
+		case "chrome":
+			driver = new ChromeDriver();break;
+		case "edge":
+			driver = new EdgeDriver();break;
+		case "firefox":
+			driver = new FirefoxDriver();break;
+		default:
+			System.out.println("Browser not supported, launching Chrome as default");
+			driver = new ChromeDriver();
+			 break;
+			
+		}
 
 		log = LogManager.getLogger(this.getClass());
 
