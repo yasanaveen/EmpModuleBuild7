@@ -56,8 +56,8 @@ public class TC_0006UnAssignRoleTestClass extends BaseClass {
 		
 		log.info("unAssignRoleHeaderText:"+unAssignRole.getUnAssignRoleHeaderTxt());
 		
-		unAssignRole.setToDate("21-02-2026");
-		log.info("Entered to date");
+//		unAssignRole.setToDate("21-02-2026");
+//		log.info("Entered to date");
 		
 		log.info("current location:"+unAssignRole.getCurrentLocation());
 		log.info("current campus:"+unAssignRole.getCurrentCampus());

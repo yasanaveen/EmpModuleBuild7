@@ -13,7 +13,7 @@
 			<class name="testCases.TC_0003AssignIndividualTestclass" />
 			<class name="testCases.TC_0004UnmapTestclass" />
 			<class name="testCases.TC_0005AssignRoleTestclass" />
-			<!--<class name="testCases.TC_0006UnAssignRoleTestClass" />-->
+			<class name="testCases.TC_0006UnAssignRoleTestClass" />
 		</classes>
 
 	</test>

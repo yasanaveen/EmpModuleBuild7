@@ -19,22 +19,24 @@ public class UnAssignRolePageObjects {
 		
 	}
 	
-	@FindBy(xpath = "//*[text()='UnAssign Role']")
+	@FindBy(xpath = "(//*[contains(@class,'__thDbe')])[2]")
 	WebElement unAssignRoleBtn;
-	@FindBy(xpath = "//*[contains(@class,'__w4dCL')]")
+	
+	@FindBy(xpath = "//*[contains(text(),'Unassign Employee From Role')]")
 	WebElement unAssignRoleHeaderTxt;
 	
 	@FindBy(xpath = "(//*[@name='lastDate'])[1]")
 	WebElement toDateInputField;
 	
-	@FindBy(xpath = "(//*[contains(@class,'__UaqIu')])[2]")
+	@FindBy(xpath = "(//*[contains(@class,'__tDQ6y')])[1]")
 	WebElement currentLocationInputField;
 	
-	@FindBy(xpath = "(//*[contains(@class,'__UaqIu')])[3]")
+	@FindBy(xpath = "(//*[contains(@class,'__tDQ6y')])[2]")
 	WebElement curentCampusInputField;
 	
-	@FindBy(xpath = "(//*[contains(@class,'__UaqIu')])[4]")
+	@FindBy(xpath = "(//*[contains(@class,'__tDQ6y')])[3]")
 	WebElement currentRoleInputField;
+	
 	@FindBy(xpath = "(//*[@name='remarks'])[1]")
 	WebElement remarkInputField;
 	
