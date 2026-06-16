@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 16 11:49:46 IST 2026</td>
+<td>Started on:</td><td>Tue Jun 16 12:29:04 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>29 seconds (29502 ms)</td>
+<tr><td>Total time:</td><td>30 seconds (30920 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,12 +77,12 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testCases.TC_0005AssignRoleTestclass.assignRoleTest()'><b>assignRoleTest</b><br>Test class: testCases.TC_0005AssignRoleTestclass</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[contains(@class,&apos;__k99Wn&apos;)]&apos; (tried for 15 second(s) with 500 milliseconds interval)
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: (//*[contains(@class,&apos;__bV02r&apos;)])[2]&apos; (tried for 15 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at Utills.WaitUtill.waitForVisibility(WaitUtill.java:22)
-	at pageObjects.AssignRoleObjects.clickLnkAddNewCampusAndRole(AssignRoleObjects.java:96)
-	at testCases.TC_0005AssignRoleTestclass.assignRoleTest(TC_0005AssignRoleTestclass.java:60)
+	at pageObjects.AssignRoleObjects.clickCrossBtn(AssignRoleObjects.java:110)
+	at testCases.TC_0005AssignRoleTestclass.assignRoleTest(TC_0005AssignRoleTestclass.java:70)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -109,15 +109,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@class,&apos;__k99Wn&apos;)]&quot;}
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[contains(@class,&apos;__bV02r&apos;)])[2]&quot;}
   (Session info: chrome=149.0.7827.103)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [add3bf6827551ba99b452f3a939b111b, findElement {value=//*[contains(@class,&apos;__k99Wn&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59876}, goog:processID: 50536, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59876/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: add3bf6827551ba99b452f3a939b111b
+Command: [796615fc5530733faac073ecabf333db, findElement {using=xpath, value=(//*[contains(@class,&apos;__bV02r&apos;)])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55293}, goog:processID: 56432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55293/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 796615fc5530733faac073ecabf333db
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -141,12 +141,12 @@ Session ID: add3bf6827551ba99b452f3a939b111b
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
 	... 29 more
 </pre></div><a href='#' onClick='toggleBox("stack-trace1007664442", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1007664442'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[contains(@class,&apos;__k99Wn&apos;)]&apos; (tried for 15 second(s) with 500 milliseconds interval)
+<div class='stack-trace' id='stack-trace1007664442'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: (//*[contains(@class,&apos;__bV02r&apos;)])[2]&apos; (tried for 15 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at Utills.WaitUtill.waitForVisibility(WaitUtill.java:22)
-	at pageObjects.AssignRoleObjects.clickLnkAddNewCampusAndRole(AssignRoleObjects.java:96)
-	at testCases.TC_0005AssignRoleTestclass.assignRoleTest(TC_0005AssignRoleTestclass.java:60)
+	at pageObjects.AssignRoleObjects.clickCrossBtn(AssignRoleObjects.java:110)
+	at testCases.TC_0005AssignRoleTestclass.assignRoleTest(TC_0005AssignRoleTestclass.java:70)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -173,15 +173,15 @@ Session ID: add3bf6827551ba99b452f3a939b111b
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@class,&apos;__k99Wn&apos;)]&quot;}
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[contains(@class,&apos;__bV02r&apos;)])[2]&quot;}
   (Session info: chrome=149.0.7827.103)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [add3bf6827551ba99b452f3a939b111b, findElement {value=//*[contains(@class,&apos;__k99Wn&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59876}, goog:processID: 50536, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59876/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: add3bf6827551ba99b452f3a939b111b
+Command: [796615fc5530733faac073ecabf333db, findElement {using=xpath, value=(//*[contains(@class,&apos;__bV02r&apos;)])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55293}, goog:processID: 56432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55293/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 796615fc5530733faac073ecabf333db
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -205,7 +205,7 @@ Session ID: add3bf6827551ba99b452f3a939b111b
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
 	... 29 more
 </pre></div></td>
-<td>25</td>
+<td>27</td>
 <td>testCases.TC_0005AssignRoleTestclass@4c178a76</td></tr>
 </table><p>
 </body>

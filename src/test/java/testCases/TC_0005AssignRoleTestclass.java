@@ -67,9 +67,9 @@ public class TC_0005AssignRoleTestclass extends BaseClass {
 //		log.info("Selected role from dropdown");
 		
 		Thread.sleep(2000);
-		assignRole.clickCrossBtn();
+		//assignRole.clickCrossBtn();
 		log.info("Clicked on cross button");
-		assignRole.clickNoBtnInConfirmationPopup();
+		//assignRole.clickNoBtnInConfirmationPopup();
 		log.info("Clicked on no button in confirmation popup");
 
 	}

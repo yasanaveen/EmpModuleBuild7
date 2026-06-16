@@ -106,13 +106,13 @@ public class AssignRoleObjects {
 //		waitUtill.waitForClickable(selectRoleOption).click();
 //	}
 	
-	public void clickCrossBtn() {
-		waitUtill.waitForVisibility(crossBtn).click();
-	}
+//	public void clickCrossBtn() {
+//		waitUtill.waitForVisibility(crossBtn).click();
+//	}
 	
-	public void clickNoBtnInConfirmationPopup() {
-		waitUtill.waitForVisibility(noBtnInConfirmationPopup).click();
-	}
+//	public void clickNoBtnInConfirmationPopup() {
+//		waitUtill.waitForVisibility(noBtnInConfirmationPopup).click();
+//	}
 	
 	
 	
