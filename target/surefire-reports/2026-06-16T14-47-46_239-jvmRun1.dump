@@ -1,4 +1,4 @@
-# Created at 2026-06-16T14:44:46.540
+# Created at 2026-06-16T14:47:46.909
 org.apache.maven.surefire.api.testset.TestSetFailedException: Suite file C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\tstNG.xml is not a valid file
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.locateTestSets(TestNGXmlTestSuite.java:89)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
