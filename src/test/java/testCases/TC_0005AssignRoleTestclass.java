@@ -51,18 +51,21 @@ public class TC_0005AssignRoleTestclass extends BaseClass {
 		assignRole.clickAssignRoleBtn();
 		log.info("Clicked on assign role button");
 		assignRole.sshotAssignRoleProfileCard();
+		log.info("Captured screenshot of assign role profile card");
 
-		log.info("get currentremap location:" + assignRole.getRemapLocation());
-		log.info("get currentremap campus:" + assignRole.getCurrentCampus());
-		log.info("get currentrole city:" + assignRole.getCurrentRole());
+//		log.info("get currentremap location:" + assignRole.getRemapLocation());
+//		log.info("get currentremap campus:" + assignRole.getCurrentCampus());
+//		log.info("get currentrole city:" + assignRole.getCurrentRole());
 
-		assignRole.clickLnkAddNewCampusAndRole();
-		log.info("Clicked on add new campus and role link");
+//		assignRole.clickLnkAddNewCampusAndRole();
+//		log.info("Clicked on add new campus and role link");
 
-		assignRole.selectCampusFromDpdown();
-		log.info("Selected campus from dropdown");
-		assignRole.selectRoleFromDpdown();
-		log.info("Selected role from dropdown");
+//		assignRole.selectCampusFromDpdown();
+//		log.info("Selected campus from dropdown");
+		
+//		assignRole.selectRoleFromDpdown();
+//		log.info("Selected role from dropdown");
+		
 		Thread.sleep(2000);
 		assignRole.clickCrossBtn();
 		log.info("Clicked on cross button");

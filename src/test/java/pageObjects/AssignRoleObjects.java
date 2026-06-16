@@ -26,10 +26,10 @@ public class AssignRoleObjects {
 
 	}
 
-	@FindBy(xpath = "(//*[contains(@class,'__WunuO')])[2]")
+	@FindBy(xpath = "(//*[contains(@class,'__thDbe')])[2]")
 	WebElement assignRoleBtn;
 
-	@FindBy(xpath = "//*[contains(@class,'__ID42+ ')]")
+	@FindBy(xpath = "//*[contains(@class,'__jnTRl ')]")
 	WebElement assignRoleProfileCard;
 
 	@FindBy(xpath = "(//*[contains(@class,'__UaqIu')])[1]")
@@ -39,8 +39,8 @@ public class AssignRoleObjects {
 	@FindBy(xpath = "(//*[contains(@class,'__UaqIu')])[3]")
 	WebElement currentRoleInputField;
 
-	@FindBy(xpath = "//*[contains(@class,'__k99Wn')]")
-	WebElement lnkaddNewcampusAndRole;
+//	@FindBy(xpath = "//*[contains(@class,'__k99Wn')]")
+//	WebElement lnkaddNewcampusAndRole;
 	
 	@FindBy(xpath = "(//*[contains(@class,'__8U-AK ')])[1]")
 	WebElement selectCampusDpdown;
@@ -74,37 +74,37 @@ public class AssignRoleObjects {
 		FileUtils.copyFile(src, tar);
 	}
 
-	public String getRemapLocation() {
-		return waitUtill.waitForVisibility(remapLocationTnputField).getAttribute("value");
-	}
+//	public String getRemapLocation() {
+//		return waitUtill.waitForVisibility(remapLocationTnputField).getAttribute("value");
+//	}
 
-	public String getCurrentCampus() {
-
-		WebElement firstCard = driver.findElement(By.xpath("(//*[contains(@class,'gridColumn__YOzX6')])[1]"));
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollTop = arguments[0].scrollHeight;", firstCard);
-
-		return waitUtill.waitForVisibility(currentCampusInputField).getAttribute("value");
-	}
+//	public String getCurrentCampus() {
+//
+//		WebElement firstCard = driver.findElement(By.xpath("(//*[contains(@class,'gridColumn__YOzX6')])[1]"));
+//		JavascriptExecutor js = (JavascriptExecutor) driver;
+//		js.executeScript("arguments[0].scrollTop = arguments[0].scrollHeight;", firstCard);
+//
+//		return waitUtill.waitForVisibility(currentCampusInputField).getAttribute("value");
+//	}
 	
 	public String getCurrentRole() {
 
 		return waitUtill.waitForVisibility(currentRoleInputField).getAttribute("value");
 	}
 	
-	public void clickLnkAddNewCampusAndRole() {
-		waitUtill.waitForVisibility(lnkaddNewcampusAndRole).click();
-	}
+//	public void clickLnkAddNewCampusAndRole() {
+//		waitUtill.waitForVisibility(lnkaddNewcampusAndRole).click();
+//	}
 	
-	public void selectCampusFromDpdown() {
-		waitUtill.waitForClickable(selectCampusDpdown).click();
-		waitUtill.waitForClickable(selectChanakyaOption).click();
-	}
+//	public void selectCampusFromDpdown() {
+//		waitUtill.waitForClickable(selectCampusDpdown).click();
+//		waitUtill.waitForClickable(selectChanakyaOption).click();
+//	}
 	
-	public void selectRoleFromDpdown() {
-		waitUtill.waitForClickable(selectRoleDpdown).click();
-		waitUtill.waitForClickable(selectRoleOption).click();
-	}
+//	public void selectRoleFromDpdown() {
+//		waitUtill.waitForClickable(selectRoleDpdown).click();
+//		waitUtill.waitForClickable(selectRoleOption).click();
+//	}
 	
 	public void clickCrossBtn() {
 		waitUtill.waitForVisibility(crossBtn).click();
