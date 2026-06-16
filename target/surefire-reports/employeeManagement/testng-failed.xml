@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [employeeManagement]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Utills.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Employee Management Test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.TC_0004UnmapTestclass">
+        <methods>
+          <include name="UnmapTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC_0004UnmapTestclass -->
+      <class name="testCases.TC_0001LoginPageTestclass">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="LoginPageTest"/>
+        </methods>
+      </class> <!-- testCases.TC_0001LoginPageTestclass -->
+      <class name="testCases.TC_0006UnAssignRoleTestClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="unAssignRoleTest"/>
+        </methods>
+      </class> <!-- testCases.TC_0006UnAssignRoleTestClass -->
+      <class name="testCases.TC_0003AssignIndividualTestclass">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="assignIndividual"/>
+        </methods>
+      </class> <!-- testCases.TC_0003AssignIndividualTestclass -->
+      <class name="testCases.TC_0005AssignRoleTestclass">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="assignRoleTest"/>
+        </methods>
+      </class> <!-- testCases.TC_0005AssignRoleTestclass -->
+      <class name="testCases.TC_0002EmployeeManagementCard">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="EmployeeManagementCardTest"/>
+        </methods>
+      </class> <!-- testCases.TC_0002EmployeeManagementCard -->
+    </classes>
+  </test> <!-- Employee Management Test(failed) -->
+</suite> <!-- Failed suite [employeeManagement] -->

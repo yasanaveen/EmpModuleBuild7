@@ -11,6 +11,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 
@@ -21,7 +22,7 @@ public class BaseClass {
 	
 	@Parameters({"browser"})
 	@BeforeClass
-	public void setUp(String browser) {
+	public void setUp(@Optional("chrome") String browser) {
 		
 		switch (browser.toLowerCase()) {
 		case "chrome":
