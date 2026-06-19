@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="2.992" tests="18" errors="0" skipped="12" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="92.163" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire7389707542603061854\surefirebooter-20260616145220311_3.jar C:\Users\Administrator\AppData\Local\Temp\surefire7389707542603061854 2026-06-16T14-52-20_122-jvmRun1 surefire-20260616145220311_1tmp surefire_0-20260616145220311_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire6671665455310813509\surefirebooter-20260619110657519_3.jar C:\Users\Administrator\AppData\Local\Temp\surefire6671665455310813509 2026-06-19T11-06-57_267-jvmRun1 surefire-20260619110657519_1tmp surefire_0-20260619110657519_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\target\test-classes;C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\target\classes;C:\Users\Administrator\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Administrator\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Administrator\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.25.0\log4j-slf4j-impl-2.25.0.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.0\log4j-core-2.25.0.jar;C:\Users\Administrator\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Administrator\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Administrator\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Administrator\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Administrator\.m2\repository\com\varsity\re-engeneering\0.0.1-SNAPSHOT\re-engeneering-0.0.1-SNAPSHOT.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire7389707542603061854\surefirebooter-20260616145220311_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire6671665455310813509\surefirebooter-20260619110657519_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
@@ -59,244 +59,168 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="setUp" classname="testCases.TC_0001LoginPageTestclass" time="0.897">
-    <failure message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
-
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:264)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="LoginPageTest" classname="testCases.TC_0001LoginPageTestclass" time="1.033">
+    <system-out><![CDATA[2026-06-19 11:07:06 INFO  TC_0001LoginPageTestclass:48 - Browser launched and navigated to login page
+************started TC_0001LoginPageTestclass***********
+2026-06-19 11:07:07 INFO  TC_0001LoginPageTestclass:15 - Entered username and password
+2026-06-19 11:07:07 INFO  TC_0001LoginPageTestclass:16 - Clicking on login button
+2026-06-19 11:07:07 INFO  TC_0001LoginPageTestclass:18 - Logged out successfully
+************completed TC_0001LoginPageTestclass***********
+]]></system-out>
+    <system-err><![CDATA[Jun 19, 2026 11:07:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:01 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 19, 2026 11:07:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="LoginPageTest" classname="testCases.TC_0001LoginPageTestclass" time="0.0">
-    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml"/>
+  <testcase name="EmployeeManagementCardTest" classname="testCases.TC_0002EmployeeManagementCard" time="12.1">
+    <system-out><![CDATA[2026-06-19 11:07:07 INFO  TC_0001LoginPageTestclass:60 - Browser closed
+2026-06-19 11:07:14 INFO  TC_0002EmployeeManagementCard:48 - Browser launched and navigated to login page
+************started TC_0002EmployeeManagementCard***********
+2026-06-19 11:07:16 INFO  TC_0002EmployeeManagementCard:18 - Entered username and password
+2026-06-19 11:07:16 INFO  TC_0002EmployeeManagementCard:19 - Clicking on login button
+2026-06-19 11:07:16 INFO  TC_0002EmployeeManagementCard:20 - Logged in successfully
+2026-06-19 11:07:16 INFO  TC_0002EmployeeManagementCard:22 - Logged out successfully
+2026-06-19 11:07:17 INFO  TC_0002EmployeeManagementCard:26 - Clicked on Employee module
+2026-06-19 11:07:18 INFO  TC_0002EmployeeManagementCard:28 - Clicked on Employee Management card
+2026-06-19 11:07:20 INFO  TC_0002EmployeeManagementCard:35 - Clicked on search input field
+2026-06-19 11:07:20 INFO  TC_0002EmployeeManagementCard:41 - Clicked on a search button
+2026-06-19 11:07:21 INFO  TC_0002EmployeeManagementCard:44 - Clicked on profile card
+2026-06-19 11:07:22 INFO  TC_0002EmployeeManagementCard:47 - Clicked on next button
+2026-06-19 11:07:22 INFO  TC_0002EmployeeManagementCard:52 - Clicked on mapping remapping button
+2026-06-19 11:07:22 INFO  TC_0002EmployeeManagementCard:55 - Clicked on assign group button
+2026-06-19 11:07:22 INFO  TC_0002EmployeeManagementCard:58 - city field:GUNTUR
+2026-06-19 11:07:22 INFO  TC_0002EmployeeManagementCard:59 - campus field:CHANAKYA BHAVAN IPCC
+2026-06-19 11:07:23 INFO  TC_0002EmployeeManagementCard:62 - Clicked on manager dropdown
+2026-06-19 11:07:26 INFO  TC_0002EmployeeManagementCard:65 - Clicked on reporting manager dropdown
+2026-06-19 11:07:26 INFO  TC_0002EmployeeManagementCard:68 - Entered remarks
+2026-06-19 11:07:26 INFO  TC_0002EmployeeManagementCard:71 - Clicked on back button
+************completed TC_0002EmployeeManagementCard***********
+]]></system-out>
+    <system-err><![CDATA[Jun 19, 2026 11:07:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 19, 2026 11:07:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="tearDown" classname="testCases.TC_0001LoginPageTestclass" time="0.0">
-    <skipped/>
+  <testcase name="assignIndividual" classname="testCases.TC_0003AssignIndividualTestclass" time="6.241">
+    <system-out><![CDATA[2026-06-19 11:07:26 INFO  TC_0002EmployeeManagementCard:60 - Browser closed
+2026-06-19 11:07:34 INFO  TC_0003AssignIndividualTestclass:48 - Browser launched and navigated to login page
+2026-06-19 11:07:34 INFO  TC_0003AssignIndividualTestclass:16 - ************started TC_0003AssignIndividualTestclass***********
+2026-06-19 11:07:35 INFO  TC_0003AssignIndividualTestclass:20 - Entered username and password
+2026-06-19 11:07:35 INFO  TC_0003AssignIndividualTestclass:21 - Clicking on login button
+2026-06-19 11:07:39 INFO  TC_0003AssignIndividualTestclass:31 - Clicked on mapping remapping button
+2026-06-19 11:07:39 INFO  TC_0003AssignIndividualTestclass:35 - Clicked on assignIndividual button
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:43 - employee screen shot taken
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:45 - payrollid:HYD000020
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:47 - remapping cityfield value:GUNTUR
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:48 - remapping campusfield value:CHANAKYA BHAVAN IPCC
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:51 - Clicked on department dropdown
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:54 - Selected designation from dropdown
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:57 - Selected reporting manager from dropdown
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:60 - Selected manager from dropdown
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:65 - Clicked on confirm button
+2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:67 - ************completed TC_0003AssignIndividualTestclass***********
+]]></system-out>
+    <system-err><![CDATA[Jun 19, 2026 11:07:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 19, 2026 11:07:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="setUp" classname="testCases.TC_0002EmployeeManagementCard" time="0.013">
-    <failure message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
-
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:264)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="UnmapTest" classname="testCases.TC_0004UnmapTestclass" time="6.645">
+    <system-out><![CDATA[2026-06-19 11:07:40 INFO  TC_0003AssignIndividualTestclass:60 - Browser closed
+2026-06-19 11:07:48 INFO  TC_0004UnmapTestclass:48 - Browser launched and navigated to login page
+************started TC_0004UnmapTestclass***********
+2026-06-19 11:07:49 INFO  TC_0004UnmapTestclass:20 - Entered username and password
+2026-06-19 11:07:49 INFO  TC_0004UnmapTestclass:21 - Clicking on login button
+2026-06-19 11:07:54 INFO  TC_0004UnmapTestclass:33 - Clicked on unmap button
+2026-06-19 11:07:54 INFO  TC_0004UnmapTestclass:35 - Clicked on unassign group button
+2026-06-19 11:07:54 INFO  TC_0004UnmapTestclass:37 - Unmap pop up screen shot taken
+2026-06-19 11:07:54 INFO  TC_0004UnmapTestclass:40 - Clicked on unassign individual button
+2026-06-19 11:07:55 INFO  TC_0004UnmapTestclass:43 - Select Unassign Type header text is matching
+2026-06-19 11:07:55 INFO  TC_0004UnmapTestclass:52 - Clicked on manager and reporting manager checkbox
+2026-06-19 11:07:55 INFO  TC_0004UnmapTestclass:58 - Entered remark
+2026-06-19 11:07:55 INFO  TC_0004UnmapTestclass:61 - ************completed TC_0004UnmapTestclass***********
+]]></system-out>
+    <system-err><![CDATA[Jun 19, 2026 11:07:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 19, 2026 11:07:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="EmployeeManagementCardTest" classname="testCases.TC_0002EmployeeManagementCard" time="0.0">
-    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml"/>
+  <testcase name="assignRoleTest" classname="testCases.TC_0005AssignRoleTestclass" time="9.321">
+    <system-out><![CDATA[2026-06-19 11:07:55 INFO  TC_0004UnmapTestclass:60 - Browser closed
+2026-06-19 11:08:02 INFO  TC_0005AssignRoleTestclass:48 - Browser launched and navigated to login page
+************started TC_0005AssignRoleTestclass***********
+2026-06-19 11:08:03 INFO  TC_0005AssignRoleTestclass:20 - Entered username and password
+2026-06-19 11:08:03 INFO  TC_0005AssignRoleTestclass:21 - Clicking on login button
+2026-06-19 11:08:04 INFO  TC_0005AssignRoleTestclass:25 - Clicked on Employee module
+2026-06-19 11:08:05 INFO  TC_0005AssignRoleTestclass:27 - Clicked on Employee Management card
+2026-06-19 11:08:07 INFO  TC_0005AssignRoleTestclass:34 - Clicked on search input field
+2026-06-19 11:08:07 INFO  TC_0005AssignRoleTestclass:40 - Clicked on a search button
+2026-06-19 11:08:08 INFO  TC_0005AssignRoleTestclass:43 - Clicked on profile card
+2026-06-19 11:08:08 INFO  TC_0005AssignRoleTestclass:46 - Clicked on next button
+2026-06-19 11:08:09 INFO  TC_0005AssignRoleTestclass:48 - Clicked on assign group button
+2026-06-19 11:08:09 INFO  TC_0005AssignRoleTestclass:52 - Clicked on assign role button
+2026-06-19 11:08:10 INFO  TC_0005AssignRoleTestclass:54 - Captured screenshot of assign role profile card
+2026-06-19 11:08:12 INFO  TC_0005AssignRoleTestclass:71 - Clicked on cross button
+2026-06-19 11:08:12 INFO  TC_0005AssignRoleTestclass:73 - Clicked on no button in confirmation popup
+]]></system-out>
+    <system-err><![CDATA[Jun 19, 2026 11:07:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 19, 2026 11:07:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:07:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="tearDown" classname="testCases.TC_0002EmployeeManagementCard" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="testCases.TC_0003AssignIndividualTestclass" time="0.004">
-    <failure message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
-
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:264)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="assignIndividual" classname="testCases.TC_0003AssignIndividualTestclass" time="0.0">
-    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml"/>
-  </testcase>
-  <testcase name="tearDown" classname="testCases.TC_0003AssignIndividualTestclass" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="testCases.TC_0004UnmapTestclass" time="0.005">
-    <failure message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
-
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:264)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="UnmapTest" classname="testCases.TC_0004UnmapTestclass" time="0.0">
-    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml"/>
-  </testcase>
-  <testcase name="tearDown" classname="testCases.TC_0004UnmapTestclass" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="testCases.TC_0005AssignRoleTestclass" time="0.003">
-    <failure message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
-
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:264)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="assignRoleTest" classname="testCases.TC_0005AssignRoleTestclass" time="0.0">
-    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml"/>
-  </testcase>
-  <testcase name="tearDown" classname="testCases.TC_0005AssignRoleTestclass" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="testCases.TC_0006UnAssignRoleTestClass" time="0.004">
-    <failure message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
-
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:264)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="unAssignRoleTest" classname="testCases.TC_0006UnAssignRoleTestClass" time="0.0">
-    <skipped message="&#10;Parameter &apos;browser&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined&#10;in C:\Users\Administrator\Desktop\eclipse-workspace\employeeManagementBuild7\testNG.xml"/>
-  </testcase>
-  <testcase name="tearDown" classname="testCases.TC_0006UnAssignRoleTestClass" time="0.0">
-    <skipped/>
+  <testcase name="unAssignRoleTest" classname="testCases.TC_0006UnAssignRoleTestClass" time="6.464">
+    <system-out><![CDATA[2026-06-19 11:08:12 INFO  TC_0005AssignRoleTestclass:60 - Browser closed
+2026-06-19 11:08:20 INFO  TC_0006UnAssignRoleTestClass:48 - Browser launched and navigated to login page
+************started TC_0006UnAssignRoleTestClass***********
+2026-06-19 11:08:21 INFO  TC_0006UnAssignRoleTestClass:21 - Entered username and password
+2026-06-19 11:08:21 INFO  TC_0006UnAssignRoleTestClass:22 - Clicking on login button
+2026-06-19 11:08:22 INFO  TC_0006UnAssignRoleTestClass:26 - Clicked on Employee module
+2026-06-19 11:08:22 INFO  TC_0006UnAssignRoleTestClass:28 - Clicked on Employee Management card
+2026-06-19 11:08:24 INFO  TC_0006UnAssignRoleTestClass:35 - Clicked on search input field
+2026-06-19 11:08:25 INFO  TC_0006UnAssignRoleTestClass:41 - Clicked on a search button
+2026-06-19 11:08:25 INFO  TC_0006UnAssignRoleTestClass:44 - Clicked on profile card
+2026-06-19 11:08:26 INFO  TC_0006UnAssignRoleTestClass:47 - Clicked on next button
+2026-06-19 11:08:26 INFO  TC_0006UnAssignRoleTestClass:51 - Clicked on unmap button
+2026-06-19 11:08:26 INFO  TC_0006UnAssignRoleTestClass:55 - Clicked on unassign role button
+2026-06-19 11:08:26 INFO  TC_0006UnAssignRoleTestClass:57 - unAssignRoleHeaderText:null
+2026-06-19 11:08:26 INFO  TC_0006UnAssignRoleTestClass:62 - current location:GUNTUR
+2026-06-19 11:08:26 INFO  TC_0006UnAssignRoleTestClass:63 - current campus:CHANAKYA BHAVAN IPCC
+2026-06-19 11:08:26 INFO  TC_0006UnAssignRoleTestClass:64 - current role:Principal
+2026-06-19 11:08:27 INFO  TC_0006UnAssignRoleTestClass:66 - Entered remark
+]]></system-out>
+    <system-err><![CDATA[Jun 19, 2026 11:08:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:08:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 19, 2026 11:08:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:08:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.38.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
 </testsuite>

@@ -1,4 +1,5 @@
 package testCases;
+
 import java.io.IOException;
 import org.testng.annotations.Test;
 import pageObjects.LoginPageObjects;
@@ -16,13 +17,7 @@ public class TC_0001LoginPageTestclass extends BaseClass {
 		// lp.logout();
 		log.info("Logged out successfully");
 		System.out.println("************completed TC_0001LoginPageTestclass***********");
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
